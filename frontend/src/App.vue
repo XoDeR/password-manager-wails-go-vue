@@ -1,9 +1,13 @@
 <script lang="ts" setup>
-import HelloWorld from './components/HelloWorld.vue'</script>
+import Home from './components/Home.vue';
+import Layout from './components/Layout.vue';
+</script>
 
 <template>
-  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
-  <HelloWorld/>
+  <Layout />
+  <main class="main">
+    <Home />
+  </main>
 </template>
 
 <style>
